@@ -1,15 +1,12 @@
-// Contact.jsx
 import React, { useState } from 'react';
 
 const Contact = () => {
-  // State for form fields
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: ''
   });
 
-  // Handle form field changes
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -17,12 +14,9 @@ const Contact = () => {
     });
   };
 
-  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    // need to logic here to handle form submission
     console.log('Form submitted:', formData);
-    // Reset form fields
     setFormData({
       name: '',
       email: '',
