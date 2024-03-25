@@ -1,9 +1,11 @@
 import React from 'react';
 import profilepic from "../assets/picture.jpg";
+import contact from "./contact";
 
 const AboutMeContent = () => {
   return (
     <div className="about-me" style={containerStyle}>
+      <h1>Welcome to my Portfolio</h1>
       <h2>About Me</h2>
       <div className="bio" style={contentStyle}>
         <img src={profilepic} alt="Sarahy Moros" style={imageStyle} />
@@ -19,7 +21,7 @@ const AboutMeContent = () => {
       </div>
       <div className="skills" style={contentStyle}>
         <h3>Skills</h3>
-        <ul>
+        <ul className='list' style={listStyle}>
           <li>JavaScript</li>
           <li>React.js</li>
           <li>HTML</li>
@@ -34,6 +36,7 @@ const AboutMeContent = () => {
   );
 };
 
+
 const containerStyle = {
   display: 'flex',
   flexDirection: 'column',
@@ -46,9 +49,15 @@ const contentStyle = {
 };
 
 const imageStyle = {
-  width: '150px',
+  width: '160px',
   height: 'auto',
   borderRadius: '50%',
+};
+
+const listStyle = {
+  textAlign: 'left',
+  fontSize: '1.2rem',
+  listStyleType: 'none',
 };
 
 export default AboutMeContent;
