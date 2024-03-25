@@ -6,14 +6,12 @@ import AboutMe from './components/aboutMe';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Resume from './components/resume';
-import Navigation from './components/navigation';
 
 const App = () => {
-  return (
+ return (
     <Router>
       <div className="app">
         <Header />
-        <Navigation />
 
         <Routes>
           <Route path="/" element={<AboutMe />} />
@@ -25,7 +23,7 @@ const App = () => {
         <Footer />
       </div>
     </Router>
-  );
+ );
 };
 
 export default App;
