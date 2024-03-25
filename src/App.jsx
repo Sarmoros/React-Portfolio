@@ -1,5 +1,4 @@
 import React from 'react';
-import './app.css'; // Adjust the path as necessary
 import './index.css'; // Adjust the path as necessary
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header';
