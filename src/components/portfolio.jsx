@@ -28,7 +28,7 @@ const projects = [
     title: 'Project 4: Echoes of Astra',
     description: 'Your virtual dream interpreter powered by cutting-edge AI technology. Echoes of Astra is a web application that allows users to record their dreams, receive interpretations, and explore dream meanings. Users can also connect with a community of dream enthusiasts, share their dreams, and engage in discussions about dream interpretation and symbolism.',
     deployedLink: 'https://echoes-of-astra.onrender.com/',
-    githubLink: 'https://github.com/Sarmoros/E-commerce-Back-End',
+    githubLink: 'https://github.com/reagan1440/Echoes-of-Astra',
     walkthroughVideo: 'https://drive.google.com/file/d/1IwnHZLdhXe_UxkF7kpqzcasD90tbWhJp/view'
     // imageUrl: 'https://example.com/project2-screenshot.jpg',
   },
