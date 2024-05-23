@@ -9,7 +9,7 @@ const AboutMeContent = () => {
       <div className="header" style={headerStyle}>
         <h3>Hi! I'm </h3>
         <h1>Sarahy Moros</h1>
-        <h2>Full stack Web Developer</h2>
+        <h2>Full Stack Web Developer</h2>
         <img src={profilepic} alt="Sarahy Moros" style={imageStyle} />
         <ul className='first-list' style={list1style}>
           <li>🖥️ Love computers</li>
