@@ -31,7 +31,6 @@ const Portfolio = () => {
   return (
     <div>
       <h2>Portfolio</h2>
-      <p>Here are some projects I've worked on:</p>
       <div className="project-list">
         {projects.map((project, index) => (
           <div key={index} className="project">

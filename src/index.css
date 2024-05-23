@@ -53,6 +53,82 @@ nav ul {
 /* End of nav css */
 
 
+/* Portfolio.css */
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+/* p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  padding-left: 30px;
+
+} */
+
+.portfolio-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.portfolio-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.portfolio-description {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.2em;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.project-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  margin-bottom: 20px;
+}
+
+.project a {
+  display: inline-block;
+  margin: 5px 0;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+/* end of portfolio css */
+
+
+
+
 :root {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
