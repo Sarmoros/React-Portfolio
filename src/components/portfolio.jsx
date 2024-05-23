@@ -14,7 +14,7 @@ const projects = [
     description: 'As a user, I want to easily plan a movie night with friends, including choosing movies, scheduling, and sending invitations, so that I can organize a fun and stress-free movie night.',
     deployedLink: 'https://example.com/project2',
     githubLink: 'https://github.com/Blade7unner/Movie-Night-Planner-App',
-    imageUrl: 'https://example.com/project2-screenshot.jpg',
+    // imageUrl: 'https://example.com/project2-screenshot.jpg',
   },
   {
     title: 'Project 3: E-commerce Back-end Only',
@@ -24,7 +24,14 @@ const projects = [
     walkthroughVideo: 'https://app.screencastify.com/v3/watch/yn6b9ET3Hkx5GvzIb11h'
     // imageUrl: 'https://example.com/project2-screenshot.jpg',
   },
-  // Add more projects as needed
+  {
+    title: 'Project 4: Echoes of Astra',
+    description: 'Your virtual dream interpreter powered by cutting-edge AI technology. Echoes of Astra is a web application that allows users to record their dreams, receive interpretations, and explore dream meanings. Users can also connect with a community of dream enthusiasts, share their dreams, and engage in discussions about dream interpretation and symbolism.',
+    deployedLink: 'https://echoes-of-astra.onrender.com/',
+    githubLink: 'https://github.com/Sarmoros/E-commerce-Back-End',
+    walkthroughVideo: 'https://drive.google.com/file/d/1IwnHZLdhXe_UxkF7kpqzcasD90tbWhJp/view'
+    // imageUrl: 'https://example.com/project2-screenshot.jpg',
+  },
 ];
 
 const Portfolio = () => {
